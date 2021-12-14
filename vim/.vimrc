@@ -1,5 +1,4 @@
-colorscheme desert
-set textwidth=80
+autocmd vimenter * ++nested colorscheme gruvbox
 set colorcolumn=+1
 set hlsearch
 set incsearch
@@ -29,6 +28,7 @@ call plug#begin()
   Plug 'tpope/vim-repeat'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+  Plug 'morhetz/gruvbox'
 call plug#end()
 
 nnoremap <leader>n :NERDTreeFocus<CR>
