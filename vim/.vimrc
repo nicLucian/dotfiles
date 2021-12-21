@@ -2,6 +2,7 @@ autocmd vimenter * ++nested colorscheme gruvbox
 set colorcolumn=+1
 set hlsearch
 set incsearch
+set number
 set relativenumber
 set autoindent
 set smartindent
